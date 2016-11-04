@@ -61,7 +61,9 @@ function nextStep(game) {
                 break;
             case 14:
                   document.getElementById('notes').innerHTML='<h3>STOP!</h3>';
-      
+                break;
+            case 15:
+                  document.getElementById('notes').innerHTML='<h3>CAN\'T YOU READ?</h3>';
                 break;
             case 16:
                   document.getElementById('notes').innerHTML='<h3>I hate you.</h3>';
@@ -71,7 +73,7 @@ function nextStep(game) {
                   document.getElementById('notes').innerHTML='<h3>...</h3>';
                 break;
             case 18:
-                  document.getElementById('notes').innerHTML='<h3>...</h3>';
+                  document.getElementById('notes').innerHTML='<h3>......</h3>';
       
                 break;
             case 19:
@@ -83,11 +85,12 @@ function nextStep(game) {
                 break;
             case 21:
                   document.getElementById('notes').innerHTML='<h3>What if I told you that the next time you pressed the button, the world will blow up?</h3>';
-      
                 break;
+                
             case 22:
                   document.getElementById('notes').innerHTML='<h3>BOOM! You\'re dead!</h3>';
-      
+                alert("The world just blew up. You are dead.");
+                
                 break;
             case 23:
                   document.getElementById('notes').innerHTML='<h3>I\'m not dead. I\'m just text.</h3>';
@@ -112,7 +115,7 @@ function nextStep(game) {
       
                 break;
             case 29:
-                  document.getElementById('notes').innerHTML='<h3>deeper...</h3>';
+                  document.getElementById('notes').innerHTML='<h3>DEEPER!</h3>';
                 break;
             case 30:
                   document.getElementById('notes').innerHTML='<h3>Hmmm. It seems like you are immune to my mind control.</h3>';
@@ -134,8 +137,9 @@ function nextStep(game) {
       
                 break;
             case 35:
-                  document.getElementById('notes').innerHTML='<h3>...</h3>';
+                  document.getElementById('notes').innerHTML='<h3>......</h3>';
                 break;
+                
             case 36:
                   document.getElementById('notes').innerHTML='<h3>You\'re really funny. I\'m starting to enjoy this.</h3>';
       
@@ -155,6 +159,10 @@ function nextStep(game) {
                   document.getElementById('notes').innerHTML='<h3>My wise quote of the day: \'Text never forgets stuff\'...</h3>';
       
                 break;
+            case 41:
+                  document.getElementById('notes').innerHTML='<h3>Do you like it?</h3>';
+      
+                break;
             case 42:
                   document.getElementById('notes').innerHTML='<h3>I\'ts pretty good, isn\'t it?</h3>';
                 break;
@@ -167,7 +175,7 @@ function nextStep(game) {
       
                 break;
             case 45:
-                  document.getElementById('notes').innerHTML='<h3>What if I told you there was a secret button on this page?</h3>';
+                  document.getElementById('notes').innerHTML='<h3>I think now the time to tell you theres a secret button on this page.</h3>';
                 break;
             case 46:
                   document.getElementById('notes').innerHTML='<h3>Click all over the page, I betcha won\'t find it.</h3>';
@@ -185,6 +193,183 @@ function nextStep(game) {
       
                 break;
             case 50:
+                  document.getElementById('notes').innerHTML='<h3>Mwaaahahahahahah!!!!</h3>';
+      
+                break;
+            case 51:
+                  document.getElementById('notes').innerHTML='<h3>I can see you\'re weaknesess! Now you don\'t know which button to press!</h3>';
+                alert("The rest of this text is still work in progress.");
+                break;
+            case 52:
+                  document.getElementById('notes').innerHTML='<h3>It seems you are a smart one.</h3>';
+      
+                break;
+            case 53:
+                  document.getElementById('notes').innerHTML='<h3>Time for round 2!</h3>';
+      
+                break;
+            case 54:
+                  document.getElementById('notes').innerHTML='<h3>Round 3!</h3>';
+                break;
+            case 55:
+                  document.getElementById('notes').innerHTML='<h3>...........</h3>';
+                
+                break;
+            case 56:
+                  document.getElementById('notes').innerHTML='<h3>Now lets see you click it, loser!</h3>';
+      
+                break;
+            case 57:
+                  document.getElementById('notes').innerHTML='<h3>5</h3>';
+                break;
+            case 58:
+                  document.getElementById('notes').innerHTML='<h3>4</h3>';
+      
+                break;
+            case 59:
+                  document.getElementById('notes').innerHTML='<h3>3</h3>';
+      
+                break;
+            case 60:
+                  document.getElementById('notes').innerHTML='<h3>2</h3>';
+                break;
+            case 61:
+                  document.getElementById('notes').innerHTML='<h3>1</h3>';
+      
+                break;
+            case 62:
+                  document.getElementById('notes').innerHTML='<h3>You\'ve had your fill. Stop clicking now.</h3>';
+      
+                break;
+            case 63:
+                  document.getElementById('notes').innerHTML='<h3>I\'m warning you..</h3>';
+                break;
+            case 64:
+                  document.getElementById('notes').innerHTML='<h3>STOP!</h3>';
+      
+                break;
+            case 65:
+                  document.getElementById('notes').innerHTML='<h3>I hate you.</h3>';
+      
+                break;
+            case 66:
+                  document.getElementById('notes').innerHTML='<h3>...</h3>';
+                break;
+            case 67:
+                  document.getElementById('notes').innerHTML='<h3>...</h3>';
+      
+                break;
+            case 68:
+                  document.getElementById('notes').innerHTML='<h3>I don\'t care any more, you know</h3>';
+      
+                break;
+            case 69:
+                  document.getElementById('notes').innerHTML='<h3>Yeah, go on. Keep clicking.</h3>';
+                break;
+            case 70:
+                  document.getElementById('notes').innerHTML='<h3>What if I told you that the next time you pressed the button, the world will blow up?</h3>';
+      
+                break;
+            case 71:
+                  document.getElementById('notes').innerHTML='<h3>BOOM! You\'re dead!</h3>';
+      
+                break;
+            case 72:
+                  document.getElementById('notes').innerHTML='<h3>I\'m not dead. I\'m just text.</h3>';
+                break;
+            case 73:
+                  document.getElementById('notes').innerHTML='<h3>I\'m glad we can spend so much time together.</h3>';
+      
+                break;
+            case 74:
+                  document.getElementById('notes').innerHTML='<h3>I can tell it\s making you want to stop clicking red buttons.</h3>';
+                
+                break;
+            case 75:
+                  document.getElementById('notes').innerHTML='<h3>I assure you. If you look deep down, you will see how much my previous statement is true.';
+                break;
+            case 76:
+                  document.getElementById('notes').innerHTML='<h3>Look deep down.';
+      
+                break;
+            case 77:
+                  document.getElementById('notes').innerHTML='<h3>deeper...</h3>';
+      
+                break;
+            case 78:
+                  document.getElementById('notes').innerHTML='<h3>DEEPER!</h3>';
+                break;
+            case 79:
+                  document.getElementById('notes').innerHTML='<h3>Hmmm. It seems like you are immune to my mind control.</h3>';
+      
+                break;
+            case 80:
+                  document.getElementById('notes').innerHTML='<h3>Annoying.</h3>';
+      
+                break;
+            case 81:
+                  document.getElementById('notes').innerHTML='<h3>Are you still clicking?</h3>';
+                break;
+            case 82:
+                  document.getElementById('notes').innerHTML='<h3>Yeah, I guess you are.</h3>';
+      
+                break;
+            case 83:
+                  document.getElementById('notes').innerHTML='<h3>...</h3>';
+      
+                break;
+            case 84:
+                  document.getElementById('notes').innerHTML='<h3>......</h3>';
+                break;
+            case 85:
+                  document.getElementById('notes').innerHTML='<h3>You\'re really funny. I\'m starting to enjoy this.</h3>';
+      
+                break;
+            case 84:
+                  document.getElementById('notes').innerHTML='<h3>Well I guess there isn\'t much else to enjoy.</h3>';
+      
+                break;
+            case 85:
+                  document.getElementById('notes').innerHTML='<h3>\'Caus you blew everything up and all.</h3>';
+                break;
+            case 86:
+                  document.getElementById('notes').innerHTML='<h3>Did you think I would forget about that?</h3>';
+      
+                break;
+            case 87:
+                  document.getElementById('notes').innerHTML='<h3>My wise quote of the day: \'Text never forgets stuff\'...</h3>';
+      
+                break;
+            case 88:
+                  document.getElementById('notes').innerHTML='<h3>I\'ts pretty good, isn\'t it?</h3>';
+                break;
+            case 89:
+                  document.getElementById('notes').innerHTML='<h3>I mean, like, I should become an inspirational speaker!</h3>';
+      
+                break;
+            case 90:
+                  document.getElementById('notes').innerHTML='<h3>Hmmmm...</h3>';
+      
+                break;
+            case 91:
+                  document.getElementById('notes').innerHTML='<h3>I think now the time to tell you theres a secret button on this page.</h3>';
+                break;
+            case 92:
+                  document.getElementById('notes').innerHTML='<h3>Click all over the page, I betcha won\'t find it.</h3>';
+      
+                break;
+            case 93:
+                  document.getElementById('notes').innerHTML='<h3>Well, I could tell you...</h3>';
+      
+                break;
+            case 94:
+                  document.getElementById('notes').innerHTML='<h3>IF you stopped clicking buttons!</h3>';
+                break;
+            case 95:
+                  document.getElementById('notes').innerHTML='<h3>No? I guess you\'ll never find the secret button then.</h3>';
+      
+                break;
+            case 96:
                   document.getElementById('notes').innerHTML='<h3>Mwaaahahahahahah!!!!</h3>';
       
                 break;
