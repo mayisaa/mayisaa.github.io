@@ -236,7 +236,7 @@ function nextStep(game) {
 function getSecretScreen()  {
     var screenwidth = screen.width;
     if (screenwidth > 800)
-        location.replace("http://mayisaa.github.io/secret-laptop.html?width=");
+        location.replace("/secret-laptop.html?width=");
     else if (screenwidth > 500)
-        location.replace("http://mayisaa.github.io/secret-tablet.html?width=");
+        location.replace("/secret-tablet.html?width=");
 }
