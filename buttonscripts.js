@@ -236,7 +236,7 @@ function nextStep(game) {
 function getSecretScreen()  {
     var screenwidth = screen.width;
     if (screenwidth > 800)
-        location.replace("/secret-laptop.html?width=");
+        location.replace("/secret-laptop.html");
     else if (screenwidth > 500)
-        location.replace("/secret-tablet.html?width=");
+        location.replace("/secret-tablet.html");
 }
