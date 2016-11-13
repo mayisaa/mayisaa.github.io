@@ -1,6 +1,7 @@
 var myGamePiece;
 var myObstacles = [];
 var mySound;
+var myScore;
 
 function startGame() {
     myGamePiece = new component(30, 30, "red", 10, 120);
@@ -85,6 +86,8 @@ function updateGameArea() {
         myObstacles[i].x -= 1;
         myObstacles[i].update();
     }
+    myScore = myGameArea.frameNo;
+    document.getElementById('myScore').innerHTML=myScore;
     myGamePiece.newPos();
     myGamePiece.update();
 }
