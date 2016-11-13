@@ -1,30 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>The Secret Button Page</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-        <script type="text/javascript" src="/buttonscripts.js"></script>
- 
-         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style>
-body
-{
-    background:#000;
-    color:#FFF;
-}
-canvas
-{
-    background:#FFF;
-}
-#controls
-{
-    position:absolute;
-    top:0;
-    right:0;
-    margin:10px;
-}
-</style>
-<script type="text/javascript">
 var snake = window.snake || {};
 function launchFullscreen(element) {
   if(element.requestFullscreen) {
@@ -285,34 +258,3 @@ window.onload = function(){
     })();
     snake.game.start();
 }
-</script>
-</head>
-<body>
-    <?PHP phpinfo(); ?>
-<canvas width="850" height="600" id="canvas" style="border:1px solid #333;" onclick="snake.game.begin();">
-</canvas>
-<div id="controls" style="float:right; text-align:center;">
-    <input type="button" id="pause" value="Play" onClick="snake.game.pause(this);" accesskey="p">
-    <input type="button" id="restart" value="Restart" onClick="snake.game.restart();">
-    <br/><br/>
-    <input type="button" id="fullscreen" value="Play Fullscreen" onClick="snake.game.fullscreen();">
-    <br/><br/>
-    <div style="font-size:24px;">
-    Score : 
-    <span id="scoreboard">0</span>
-    </div>
-</div>
-    		<ul>
-        		<li><a href="/">Back to Home</a></li>
-    		</ul>
-        <div class="container">
-			<div id="notes" class="notes">
-				<h2>Congratulations! You found the secret button, this secret page and this secret game!</h2>
-			</div> <!-- /.container -->
-		</div><!-- /.container -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<footer>
-    		&copy; 2016, Isaac Mayer. Game code courtesy of codereview.stackexchange.com.
-		</footer>
-	</body>
-</html>
