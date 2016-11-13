@@ -232,3 +232,8 @@ function nextStep(game) {
     }
     
 }
+
+function getSecretScreen()  {
+    var screenwidth = screen.width;
+    location.replace("http://mayisaa.github.io/secret.html?width="+screenwidth);
+}
