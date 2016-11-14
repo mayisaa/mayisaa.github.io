@@ -8,7 +8,7 @@
         <link rel="apple-touch-icon" href="/button.png">
         <link rel="shortcut icon" href="/button.png" />
 	</head>
-	<body>
+	<body onload="javascript: initialise();">
 		<nav>
     		<ul>
         		<li><a href="/">Not the Button!</a></li>
@@ -20,7 +20,7 @@
 		<div class="container">
     		<div id="buttons" class="buttons">
         		<h1 id="NoOfPresses">I can see you, you know!</h1>
-				<img id="btn" src="/button.jpg" width="150" class="activebutton" onclick="nextStep('seeyou');">
+				<img id="btn" src="/button.jpg" width="100" class="activebutton" onclick="nextStep('seeyou');">
     		</div><!-- /.buttons -->
 			<div id="notes" class="notes">
 				<h3>DO NOT PRESS THIS BUTTON</h3>
@@ -28,7 +28,7 @@
 		</div><!-- /.container -->
         <a href="#" onclick="javascript:getSecretScreen();" title="This is a secret button... Click it!">&nbsp;&nbsp;&nbsp;&nbsp;</a>
 		<footer>
-    		&copy; 2016, Isaac Mayer
+            <div style="width: 50%; float: left;">&copy; 2016, Isaac Mayer</div><div id="screenWidth" style="width:50%; text-align: right; float: left;"></div>
 		</footer>
 	</body>
 </html>

@@ -1,10 +1,19 @@
 var No = 0;
 var message = '';
+
+function initialise() {
+    document.getElementById("screenWidth").innerHTML="window size: "+window.innerWidth+"x"+window.innerHeight;
+    if (screen.width>1000) document.getElementById("btn").width="150";
+    else if (screen.width>768) document.getElementById("btn").width="150";
+    else if (screen.width>500) document.getElementById("btn").width="100";
+    else document.getElementById("btn").width="75";
+}
+
 function nextStep(game) {   
     No ++;
   if (game=='') game='btn';
     if (game=='btn')    {
-        message = "WHY DID YOU CLICK THIS BUTTON? Can't you read!?!?\r Please do not press this button again.";
+        message = "WHY DID YOU CLICK THIS BUTTON? Can't you read?\r Please do not press this button again.";
         alert(message);
        
     }
