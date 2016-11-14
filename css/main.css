@@ -3,24 +3,87 @@
 }body {
     margin: 60px auto;
     width: 70%;
+    font-size: 12pt;
 }
-.container	{
-	text-align: center;
+/*Responsive elements */
+   /* For mobile phones: */
+    .container	{
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    nav {
+        float: left;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    h1 {
+        font-size: 1.5rem;
+        font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    }
+    .activebutton {
+       cursor: pointer;
+     }
+   .activebutton:hover {
+        cursor: crosshair;
+        opacity: 1;
+    }
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .container	{
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+    nav {
+        float: left;
+        width: 100%;
+        background-color: yellow;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .activebutton {
+        cursor: pointer;
+     }
+   .activebutton:hover {
+        cursor: crosshair;
+        opacity: 1;
+    }
 }
-.activebutton {
-    cursor: pointer;
+@media only screen and (min-width: 768px) {
+    /* For desktops: */
+    .container	{
+        text-align: center;
+        width: 70%;
+        float: left;
+    }
+    nav {
+        float: left;
+        width: 30%;
+        background-color: white;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .activebutton {
+        cursor: pointer;
+    }
+    .activebutton:hover {
+        cursor: crosshair;
+        opacity: 0.3;
+    }
 }
-.activebutton:hover {
-    cursor: pointer;
-    opacity: 0.3;
-}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: ;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+ul li, footer ul li {
     display: block;
     line-height: 2em;
     #margin-right: 20px;
@@ -31,10 +94,6 @@ a {
 }
 a:hover {
     text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
