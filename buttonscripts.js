@@ -184,7 +184,7 @@ function nextStep(game) {
       
                 break;
             case 45:
-                  document.getElementById('notes').innerHTML='<h3>I think now the time to tell you theres a secret button on this page.</h3>';
+                  document.getElementById('notes').innerHTML='<h3>I think now is the time to tell you there is a secret button on this page.</h3>';
                 break;
             case 46:
                   document.getElementById('notes').innerHTML='<h3>Click all over the page, I betcha won\'t find it.</h3>';
